@@ -1,5 +1,4 @@
-[LOGO COMING SOON!]
-
+![Logo](https://cdn.discordapp.com/attachments/559839948019073027/589955323415232522/Player_Cloner_Mod_III.VC_Banner.png)
 <a href="https://github.com/RockstarMontannaStudio/III.VC.-CLEO-.Player-Cloner/fork">
         <img src="https://img.shields.io/github/forks/RockstarMontannaStudio/III.VC.-CLEO-.Player-Cloner.svg?label=Contribute%20with%20us%21&style=social"
             alt="Contribute with us!"></a>
