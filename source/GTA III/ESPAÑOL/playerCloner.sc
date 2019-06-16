@@ -1,0 +1,21 @@
+SCRIPT_START
+{ 
+NOP
+LVAR_INT player scplayer
+LVAR_FLOAT x y z
+ 
+GET_PLAYER_CHAR 0 player
+ 
+clone:
+WAIT 0 
+ IF IS_KEY_PRESSED VK_KEY_T
+ AND IS_KEY_PRESSED VK_KEY_L  
+   WAIT 100
+   PRINT_HELP_STRING "Jugador clonado"
+   GET_PLAYER_COORDINATES 0 x y z 
+   CREATE_PLAYER 0 x y z scplayer 
+ENDIF
+GOTO clone
+ 
+}
+SCRIPT_END
